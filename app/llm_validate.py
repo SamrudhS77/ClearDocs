@@ -5,7 +5,8 @@ from app.models import NormalizedDoc
 
 client = AzureOpenAI(
     api_key=settings.AZURE_OPENAI_KEY,
-    azure_endpoint=settings.AZURE_OPENAI_ENDPOINT
+    azure_endpoint=settings.AZURE_OPENAI_ENDPOINT,
+    api_version=settings.OPENAI_API_VERSION
 )
 
 SYSTEM = """You convert Azure Document Intelligence JSON into a strict normalized JSON.
