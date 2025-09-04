@@ -9,6 +9,9 @@ env/
 venv/
 .env
 
+# Inputs
+samples/
+
 # IDE
 .vscode/
 .idea/
