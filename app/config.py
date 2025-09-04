@@ -9,6 +9,7 @@ class Settings:
     AZURE_DI_ENDPOINT: str = os.environ["AZURE_DI_ENDPOINT"]
     AZURE_DI_KEY: str = os.environ["AZURE_DI_KEY"]
     AZURE_OPENAI_ENDPOINT: str = os.environ["AZURE_OPENAI_ENDPOINT"]
+    OPENAI_API_VERSION: str = os.environ["OPENAI_API_VERSION"]
     AZURE_OPENAI_KEY: str = os.environ["AZURE_OPENAI_KEY"]
     AZURE_OPENAI_DEPLOYMENT: str = os.environ.get("AZURE_OPENAI_DEPLOYMENT", "gpt-4o-mini")
     STORAGE_DIR: str = os.environ.get("STORAGE_DIR", "outputs")
